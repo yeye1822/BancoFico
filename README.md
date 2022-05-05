@@ -1,4 +1,4 @@
 # BancoFicohsa
-<h3> Servicios Implementados</h3>
+<h4> Servicios Implementados</h4>
 
-Servicios <strong>GET {endPoint}/stats</strong>
+ <h5>GET {endPoint}/stats<h5>

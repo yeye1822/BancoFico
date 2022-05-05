@@ -13,7 +13,7 @@
 		- 200 Mutante
 		- 403 Humano
 
-	<JSON de petición de ejemplo<h4>
+	JSON de petición de ejemplo
  
 	{
 		"dna": [

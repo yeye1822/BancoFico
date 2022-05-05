@@ -1,10 +1,10 @@
 # BancoFicohsa
 <h2> Servicios Implementados</h2>
 
- <h4>GET {endPoint}/stats<h4>
+<h4>GET {endPoint}/stats<h4>
 	Servicio que informa la cantidad total de humanos, mutantes y la cantidad comparable de las variables en uso.
  
- <h4>POST {endPoint}/mutant<h4>
+<h4>POST {endPoint}/mutant<h4>
 	Servicio que analiza el ADN según reglas estipuladas y determina si es humano o mutante. Esta información se almacena en una base de datos MySQL.
  
  
@@ -13,7 +13,7 @@
 		- 200 Mutante
 		- 403 Humano
 
-	<JSON de petición de ejemplo<h4>
+	JSON del servicio
  
 	{
 		"dna": [
@@ -25,4 +25,17 @@
 			"GCACTA"
 		]
 	}
- 
+	
+<h4>Manual de instalación</h4>
+<h3>Programas necesarios</h3>
+
+	- Motor de base de datos MySQL
+	- Maven
+	- Java 1.8 o posterior
+	
+<h4>Manual de Instalación</h4>
+
+	- Crear la base de datos, asignarle el nombre **db_mutant_backend**
+	- Configurar el usuario y clave en el archivo properties del proyecto. Ubicado en la carpeta de resource, las variables a configurar son:
+		- spring.datasource.username
+		- spring.datasource.password

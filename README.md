@@ -26,15 +26,15 @@
 		]
 	}
 	
-<h4>Manual de instalación</h4>
-<h3>Programas necesarios</h3>
+<h3>Manual de instalación</h3>
+<h4>Programas necesarios</h4>
 
 	- Motor de base de datos MySQL
 	- Maven
 	- Java 1.8 o posterior
 	- Postman o herramienta para el testing de API REST
 	
-<h4>Manual de Instalación</h4>
+<h4>Instrucciones</h4>
 
 	- Crear la base de datos, asignarle el nombre **db_mutant_backend**
 	- Configurar el usuario y clave en el archivo properties del proyecto. Ubicado en la carpeta de resource, las variables a configurar son:

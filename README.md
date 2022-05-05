@@ -13,9 +13,9 @@
 		- 200 Mutante
 		- 403 Humano
 
- <h4>JSON de petición de ejemplo<h4
-	
-	 <pre>{
+ <h4>JSON de petición de ejemplo<h4	
+	 <pre>
+	 {
 		"dna": [
 			"CTGCTA", 
 			"CGCTGC", 
@@ -24,5 +24,6 @@
 			"CTGCTA", 
 			"GCACTA"
 		]
-	}</pre>
+	}
+	</pre>
  

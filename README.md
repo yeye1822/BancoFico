@@ -7,12 +7,14 @@
  <h4>POST {endPoint}/mutant<h4>
 	Servicio que analiza el ADN según reglas estipuladas y determina si es humano o mutante. Esta información se almacena en una base de datos MySQL.
  
+ 
 	El servicio responde codigos de estados teniendo en cuenta si es humano o mutante.
+	
 		- 200 Mutante
 		- 403 Humano
 
- <h4>JSON de petición de ejemplo<h4>
-	 <pre>
+ <h4>JSON de petición de ejemplo<h4
+ 
 	 {
 		"dna": [
 			"CTGCTA", 
@@ -23,6 +25,4 @@
 			"GCACTA"
 		]
 	}
-	 
-	 </pre>
  

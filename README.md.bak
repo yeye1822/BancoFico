@@ -1,10 +1,10 @@
 # BancoFicohsa
-<h4> Servicios Implementados</h4>
+<h2> Servicios Implementados</h2>
 
- <h5>GET {endPoint}/stats<h5>
+ <h4>GET {endPoint}/stats<h4>
  Servicio que informa la cantidad total de humanos, mutantes y la cantidad comparable de las variables en uso.
  
- <h5>POST {endPoint}/mutant<h5>
+ <h4>POST {endPoint}/mutant<h4>
  Servicio que analiza el ADN según reglas estipuladas y determina si es humano o mutante. Esta información se almacena en una base de datos MySQL.
  
  El servicio responde codigos de estados teniendo en cuenta si es humano o mutante.

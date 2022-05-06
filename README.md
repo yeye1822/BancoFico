@@ -1,6 +1,10 @@
 # BancoFicohsa
 <h2> Servicios Implementados</h2>
 
+	La API REST se monton en el Cloud de Google, el endPoint del servicio es:
+	
+	**Endpoint**: https://springgcp-349404.rj.r.appspot.com
+
 <h4>GET {endPoint}/stats<h4>
 	
 	Servicio que informa la cantidad total de humanos, mutantes y la cantidad comparable de las variables

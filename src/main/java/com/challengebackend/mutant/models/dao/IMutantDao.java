@@ -10,7 +10,7 @@ public interface IMutantDao extends CrudRepository<MutantEntity, Long> {
 	@Query(value = "SELECT count(*) FROM tbl_mutant where is_mutant= '1'", nativeQuery = true)
 	public Long isMutant();
 	
-	@Query(value = "SELECT count(*) FROM tbl_mutant where is_mutant= '0'", nativeQuery = true)
+	@Query(value = "SELECT count(*) FROM tbl_mutant", nativeQuery = true)
 	public Long isHuman();
 	
 }
